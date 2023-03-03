@@ -1,0 +1,9 @@
+create database student_api;
+
+use student_api;
+create table Student(
+    studentId bigint primary key auto_increment,
+    studentName nvarchar(225),
+    studentAge int,
+    studentStatus boolean
+)
